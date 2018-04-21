@@ -28,7 +28,8 @@
         <Button x:Name="btnDeporte" FontSize="21.333" Margin="156,119,0,42" Grid.Row="1" FontWeight="Bold">Deporte</Button>
         <Button x:Name="btnEquipo" FontSize="21.333" Margin="87,119,74,42" Grid.Row="1" Grid.Column="1" FontWeight="Bold">Equipo</Button>
         <Button x:Name="btnTorneo" FontSize="21.333" Margin="34,119,138,42" Grid.Row="1" Grid.Column="2" FontWeight="Bold">Torneo</Button>
-        <Button x:Name="btnPuntuacion" FontSize="21.333" Margin="87,0,74,159" Grid.Row="2" Grid.Column="1" FontWeight="Bold" Content="Puntuación"/>
+        <Button x:Name="btnPuntuacion" FontSize="21.333" Margin="259,10,196,149" Grid.Row="2" FontWeight="Bold" Content="Puntuación" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnContraseña" FontSize="21.333" Margin="191,10,176,149" Grid.Row="2" FontWeight="Bold" Content="Cambiar contraseña" Grid.ColumnSpan="2" Grid.Column="1"/>
         <Button x:Name="btnRegresar" FontSize="21.333" Margin="104,116,10,31" Grid.Row="2" Grid.Column="2">
             <Button.Background>
                 <ImageBrush ImageSource="Imagenes/regresar.png"/>
