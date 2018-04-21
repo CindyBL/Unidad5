@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deportes.GUI.Administrador", "Deportes.GUI.Administrador\Deportes.GUI.Administrador.csproj", "{28843CB0-FCE5-4B0F-A60A-5BAB1A817159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deportes.GUI.Estadisticos", "Deportes.GUI.Estadisticos\Deportes.GUI.Estadisticos.csproj", "{7D8F9B6E-834E-4D4C-872F-97466A51EF9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deportes.COMMON", "Deportes.COMMON\Deportes.COMMON.csproj", "{839487BE-1BD9-4288-BB2A-7FB6974F74F8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28843CB0-FCE5-4B0F-A60A-5BAB1A817159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28843CB0-FCE5-4B0F-A60A-5BAB1A817159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28843CB0-FCE5-4B0F-A60A-5BAB1A817159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28843CB0-FCE5-4B0F-A60A-5BAB1A817159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8F9B6E-834E-4D4C-872F-97466A51EF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8F9B6E-834E-4D4C-872F-97466A51EF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8F9B6E-834E-4D4C-872F-97466A51EF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8F9B6E-834E-4D4C-872F-97466A51EF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839487BE-1BD9-4288-BB2A-7FB6974F74F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839487BE-1BD9-4288-BB2A-7FB6974F74F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839487BE-1BD9-4288-BB2A-7FB6974F74F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839487BE-1BD9-4288-BB2A-7FB6974F74F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
